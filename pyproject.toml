@@ -1,0 +1,19 @@
+[project]
+name = "supabase-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.121.3",
+    "pydantic>=2.12.4",
+    "python-dotenv>=1.2.1",
+    "supabase>=2.24.0",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.0",
+]
